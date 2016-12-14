@@ -27,7 +27,6 @@ class Github
   end
 
   def info_body
-    binding.pry
     Net::HTTP.get_response(uri).body
   end
 
