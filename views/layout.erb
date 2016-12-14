@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/foundation.min.css" />
+    <link rel="stylesheet" href="/foundation-icons.css" />
+    <link rel="stylesheet" href="/app.css" />
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">
+            <i class="fi-web"></i>
+            Dashboard
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><input type="search" placeholder="Search"></li>
+          <li><button type="button" class="button">Search</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- main content -->
+    <div class="row">
+      <%= yield %>
+    </div>
+
+    <!-- javascript -->
+    <script src="/jquery.min.js"></script>
+    <script src="/what-input.min.js"></script>
+    <script src="/foundation.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+
+</html>

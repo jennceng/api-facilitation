@@ -1,0 +1,7 @@
+---
+title: "API Dashboard"
+type: "challenge"
+description: "Build your own personal dashboard that utilizes multiple APIs"
+tags: "api"
+ignore:
+- "api-dashboard.md"
